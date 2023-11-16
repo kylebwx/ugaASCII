@@ -2,7 +2,7 @@
 
 
 Server address (as of now):
-172.18.213.142:8000
+https://172.18.213.142:443
 
 
 Username: first_initial+last_name
