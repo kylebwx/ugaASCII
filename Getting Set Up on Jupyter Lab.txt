@@ -1,4 +1,4 @@
-﻿Getting Set Up on JupyterLab
+﻿Getting Set Up on our JupyterLab
 
 
 Server address (as of now):
@@ -17,13 +17,6 @@ How to create conda environments on the server:
 
 1. In jupyterhub, open a terminal
 2. Run the following commands without double quotes IN ORDER:
-
-
-
-
-
-
-
 
 “conda create -n newenv ipykernel”
 “conda activate newenv”
