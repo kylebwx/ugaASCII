@@ -1,0 +1,55 @@
+﻿Getting Set Up on JupyterLab
+
+
+Server address (as of now):
+172.18.213.142:8000
+
+
+Username: first_initial+last_name
+Ex: “Joe Dirt” → “jdirt”
+
+
+Everyone’s Temporary Password: ugaascii153
+
+
+How to create conda environments on the server:
+
+
+1. In jupyterhub, open a terminal
+2. Run the following commands without double quotes IN ORDER:
+
+
+
+
+
+
+
+
+“conda create -n newenv ipykernel”
+“conda activate newenv”
+“python -m ipykernel install --user --name newenv --display-name 'Python (newenv)'”
+
+
+Feel free to change “newenv” to whatever you want the name of your environment to be.
+
+
+Please remember that you must be on UGA’s internal network (or the Cisco VPN) to access this software. YOu are on our basement computer which is also used to run weather models, so please don’t do your homework on it unless you ask someone first.
+
+
+CHANGE YOUR PASSWORD!!!!!!! 
+
+
+Back-up your data! No one can help you if the data is lost. Your account is isolated. 
+
+
+Remember, use common sense!
+
+
+Questions?
+kyle.brooks1@uga.edu
+
+
+If for some reason I do not respond, please reach out to my advisor, Dr. John Knox : johnknox@uga.edu
+
+
+UGA ASCII GitHub Repository:
